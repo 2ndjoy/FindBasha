@@ -3,42 +3,21 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            FindBasha
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Service
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Add service
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ms-15" href="#">
-                  Log In
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav class="navbar bg-body-tertiary px-5 fw-bolder">
+        {/* <div className="d-flex justify-content-center gap-3"> */}
+        <a href="#" className="fs-3 nav-link">
+          <i>Find Basha </i>
+        </a>
+        <a href="#" className=" nav-link">
+          Add service
+        </a>
+        <a href="#" className=" nav-link">
+          Services
+        </a>
+        <a href="#" className=" nav-link">
+          Log in
+        </a>
+        {/* </div> */}
       </nav>
     </div>
   );
