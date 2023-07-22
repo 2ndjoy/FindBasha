@@ -2,7 +2,7 @@ const FilterBox = () => {
   return (
     <div>
       <div>
-        <div className="container mt-3">
+        <div className="container my-5">
           <div className="row justify-content-center">
             <div className="col-md-6">
               <label htmlFor="exampleSelect" className="form-label">
