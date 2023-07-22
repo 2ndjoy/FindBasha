@@ -23,7 +23,7 @@ const Header = () => {
                 </a>
               </li>
               <li className="list-inline-item">
-                <button type="button" className="ms-3 btn btn-outline-dark">
+                <button type="button" className="me-5 btn btn-outline-dark">
                   Log in
                 </button>
               </li>
