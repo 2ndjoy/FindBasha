@@ -1,14 +1,11 @@
 import "./App.css";
-import Home from "./Home/Home";
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes/Router";
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Home></Home>
-      <Footer></Footer>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

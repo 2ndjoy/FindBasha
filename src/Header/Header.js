@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -6,26 +7,29 @@ const Header = () => {
       <div style={{ backgroundColor: "#f8f9fa" }} className="fw-bolder py-3">
         <div className="row">
           <div className="col-md-6">
-            <a href="#" className="fs-3 nav-link">
+            <Link to="/" className="fs-3 nav-link">
               <i>Find Basha </i>
-            </a>
+            </Link>
           </div>
           <div className="col-md-6">
             <ul className="list-inline text-md-end">
               <li className="list-inline-item">
-                <a href="#" className="nav-link ">
+                <Link to="/addservices" className="nav-link ">
                   Add service
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="nav-link mx-3">
+                <Link to="/services" className="nav-link mx-3">
                   Services
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <button type="button" className="me-5 btn btn-outline-dark">
-                  Log in
-                </button>
+                <Link to="/login" className="nav-link">
+                  {" "}
+                  <button type="button" className="me-5 btn btn-outline-dark">
+                    Log in
+                  </button>{" "}
+                </Link>
               </li>
             </ul>
           </div>
