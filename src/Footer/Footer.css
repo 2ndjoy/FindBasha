@@ -1,6 +1,7 @@
 .footer {
-  margin-top: 50vw;
+  margin-top: 10vw;
   width: 100%;
+  position: relative;
   padding: 20px 0; /* Adjust this value as needed to add spacing */
   background-color: #f8f9fa; /* Add a background color to the footer if desired */
 }

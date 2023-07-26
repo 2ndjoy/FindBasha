@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../UserContext/AuthProvider";
 
 const Header = () => {
+  const { user, logOut, loading } = useContext(AuthContext);
+  const handleLogOut = () => {
+    logOut();
+  };
+
   return (
     <div>
       <div style={{ backgroundColor: "#f8f9fa" }} className="fw-bolder py-3">
@@ -24,12 +30,22 @@ const Header = () => {
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/login" className="nav-link">
-                  {" "}
-                  <button type="button" className="me-5 btn btn-outline-dark">
-                    Log in
-                  </button>{" "}
-                </Link>
+                {user ? (
+                  <button
+                    onClick={handleLogOut}
+                    type="button"
+                    className="me-5 btn btn-outline-dark"
+                  >
+                    Log out
+                  </button>
+                ) : (
+                  <Link to="/login" className="nav-link">
+                    {" "}
+                    <button type="button" className="me-5 btn btn-outline-dark">
+                      Log in
+                    </button>{" "}
+                  </Link>
+                )}
               </li>
             </ul>
           </div>
