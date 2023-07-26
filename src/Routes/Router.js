@@ -5,6 +5,8 @@ import Services from "../Services/Services";
 import AddServices from "../Services/AddServices";
 import LogIn from "../LogInAndRegister/LogIn";
 import Register from "../LogInAndRegister/Register";
+import About from "../AboutSection/About";
+import InsideHouse from "../InsideHouse/InsideHouse";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/insideHouse",
+        element: <InsideHouse></InsideHouse>,
       },
     ],
   },

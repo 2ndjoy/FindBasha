@@ -1,191 +1,162 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <div className="d-flex justify-content-center">
-      <div className="ms-4 my-5">
-        <div className="row gap-3">
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+    <div className="px-2 mx-2 my-5">
+      <div className="d-flex flex-wrap gap-2">
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>{" "}
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>{" "}
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>{" "}
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>{" "}
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
+        </div>{" "}
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
+          </div>
+        </div>
+        <div className="card" style={{ width: "18rem" }}>
+          <img
+            src="https://a0.muscache.com/im/pictures/02454a7e-930d-420a-b0cb-ed1a3624047f.jpg?im_w=1200"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Rent Fee: 10$</h5>
+            <p className="card-text">Location: Sylhet</p>
+            <Link to="/insideHouse" className="btn btn-primary">
+              Check
+            </Link>
           </div>
         </div>
       </div>

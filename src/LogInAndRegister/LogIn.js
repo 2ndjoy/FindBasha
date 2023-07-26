@@ -50,63 +50,65 @@ const LogIn = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit(handleLogin)} className="container mt-4">
-        <div className="row">
-          <div className="col-md-6">
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label">
-                Email
-              </label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                className={`form-control ${errors.name ? "is-invalid" : ""}`}
-                {...register("email", { required: "email is required" })}
-              />
-              {errors.email && (
-                <div className="invalid-feedback">{errors.email.message}</div>
-              )}
-            </div>
+    <div className="d-flex justify-content-center">
+      <div>
+        <form onSubmit={handleSubmit(handleLogin)} className="container mt-4">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="mb-3">
+                <label htmlFor="email" className="form-label">
+                  Email
+                </label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  className={`form-control ${errors.name ? "is-invalid" : ""}`}
+                  {...register("email", { required: "email is required" })}
+                />
+                {errors.email && (
+                  <div className="invalid-feedback">{errors.email.message}</div>
+                )}
+              </div>
 
-            <div className="mb-3">
-              <label htmlFor="password" className="form-label">
-                Password
-              </label>
-              <input
-                type="password"
-                name="password"
-                id="password"
-                className={`form-control ${
-                  errors.password ? "is-invalid" : ""
-                }`}
-                {...register("password", {
-                  required: "password is required",
-                })}
-              />
-              {errors.password && (
-                <div className="invalid-feedback">
-                  {errors.password.message}
-                </div>
-              )}
-            </div>
+              <div className="mb-3">
+                <label htmlFor="password" className="form-label">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  className={`form-control ${
+                    errors.password ? "is-invalid" : ""
+                  }`}
+                  {...register("password", {
+                    required: "password is required",
+                  })}
+                />
+                {errors.password && (
+                  <div className="invalid-feedback">
+                    {errors.password.message}
+                  </div>
+                )}
+              </div>
 
-            <button type="submit" className="btn btn-primary">
-              Log in
-            </button>
+              <button type="submit" className="btn btn-primary">
+                Log in
+              </button>
+            </div>
           </div>
+        </form>
+        <div className="m-3">
+          Go to <Link to="/register">Register</Link>
         </div>
-      </form>
-      <div className="m-3">
-        Go to <Link to="/register">Register</Link>
+        <button
+          className="btn btn-secondary"
+          onClick={handleSubmit(handleforgetPassword)}
+        >
+          Forget Password?
+        </button>
       </div>
-      <button
-        className="btn btn-secondary"
-        onClick={handleSubmit(handleforgetPassword)}
-      >
-        Forget Password?
-      </button>
     </div>
   );
 };

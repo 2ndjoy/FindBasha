@@ -21,7 +21,7 @@ const AboutSec = () => {
         </p>
       </div>
       <hr />
-      <div className="p-lg-5">
+      <div className="p-lg-5 border border-dark border-1 rounded">
         <ContactForm></ContactForm>
       </div>
     </div>

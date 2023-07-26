@@ -30,6 +30,11 @@ const Header = () => {
                 </Link>
               </li>
               <li className="list-inline-item">
+                <Link to="/about" className="nav-link mx-3">
+                  About us
+                </Link>
+              </li>
+              <li className="list-inline-item">
                 {user ? (
                   <button
                     onClick={handleLogOut}

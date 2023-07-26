@@ -15,8 +15,8 @@ const AddServices = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit(onSubmit)} className="container mt-4">
+    <div className="d-flex justify-content-center">
+      <form onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
           <div className="col-md-6">
             <div className="mb-3">
@@ -103,9 +103,6 @@ const AddServices = () => {
           </div>
         </div>
       </form>
-      <div className="m-3">
-        Go to <Link to="/login">Login</Link>
-      </div>
     </div>
   );
 };
